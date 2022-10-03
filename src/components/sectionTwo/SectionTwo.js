@@ -9,7 +9,7 @@ function SectionTwo() {
         <div className="left">
           <div className="circle">
             <div className="circles">
-              <img src={pic} alt="profile-picture" />
+              <img src={pic} alt="icon" />
             </div>
           </div>
         </div>

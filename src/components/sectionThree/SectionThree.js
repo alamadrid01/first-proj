@@ -20,7 +20,7 @@ function SectionThree() {
         <div className="right">
             <div className="circles">
                 <div className="circle">
-                    <img src={pic} alt="profile-picture" />
+                    <img src={pic} alt="icon" />
                 </div>
             </div>
         </div>

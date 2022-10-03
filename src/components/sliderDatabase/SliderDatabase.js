@@ -51,7 +51,7 @@ function SliderDatabase({ type }) {
     <div>
       <div className="sliderDatabase">
         <div className="data">
-          <img src={data.current.image} alt="profile-picture" />
+          <img src={data.current.image} alt="icon" />
           <h3>{data.current.name}</h3>
         </div>
         <p>
