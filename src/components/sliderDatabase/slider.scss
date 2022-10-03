@@ -1,0 +1,34 @@
+.sliderDatabase{
+    margin: 0 50px;
+    padding: 15px;
+    border: 1px solid var(--dark);
+    border-radius: 8px;
+box-shadow:  inset -5px -6px 4px 1px #ab93ae;
+             
+    .data{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        
+
+        img{
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+            
+        }
+        h3{
+            color: var(--grey);
+            // font-size: 23px;
+        }
+    }
+    p{
+        margin: 10px 0;
+        color: rgb(77, 72, 72);
+
+    }
+    .star{
+        color: goldenrod;
+    }
+}

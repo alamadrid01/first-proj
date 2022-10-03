@@ -1,0 +1,145 @@
+.sectionOne{
+    display: flex;
+    padding: 50px 8%;
+    
+
+    .left{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        
+
+        h1{
+            text-transform: capitalize;
+            font-size: 33px;
+
+            span{
+                color: var(--light);
+            }
+        }
+        p{
+            margin: 20px 0;
+            line-height: 1.5;
+            // font-family: 'Droid Sans';
+            span{
+                color: var(--light);
+                font-weight: 550;
+                text-transform: capitalize;
+            }
+        }
+        .button{
+            width: 40%;
+            color: white;
+            font-weight: 550;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 7px 15px;
+            border-radius: 10px;
+            background: var(--dark);
+            cursor: pointer;
+        }
+    }
+
+    .right{
+        flex: 4;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+
+        img{
+            width: 610px;
+            height: 500px;
+
+        }
+    }
+
+}
+.bottomContainer{
+    padding: 50px 8%;
+
+    span{
+        margin-bottom: 25px;
+        text-align: center;
+        display: block;
+        color: var(--light);
+        font-weight: 600;
+        font-size: 25px;
+    }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+}
+.table{
+    
+    position: relative;
+    margin: 10px;
+    width: 220px;
+    height: 270px;
+    padding: 15px 8px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  8px 8px 6px #676767,
+                -8px -8px 6px #ffffff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .icon{
+        z-index: 10;
+    }
+    .icons{
+        width: 42px;
+        height: 42px;
+        color: rgb(220, 224, 231);
+    }
+   .title{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: white;
+    z-index: 10;
+   }
+   .text{
+    font-size: 14px;
+    margin:25px 20px;
+   }
+   .contact{
+    margin-top: 10px;
+    color: var(--grey);
+    cursor: pointer;
+    border-bottom: 2px solid var(--light);
+   }
+   .overlay{
+    background: var(--dark);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    border-radius: 40px 40px 0 25px;
+
+    &::before,
+
+    &::after{
+        content: '';
+        background: var(--dark);
+        position: absolute;
+        right: 0;
+        top: 100px;
+        width: 30px;
+        height: 30px;
+    
+       }
+       &::after{
+        background:  rgb(226, 214, 214);
+        border-radius: 0 305px 0 0;
+       }
+       
+   }
+  
+}

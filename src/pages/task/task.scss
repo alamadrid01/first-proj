@@ -1,0 +1,88 @@
+.task{
+    font-family: 'Lato';
+    background: var(--dark);
+    height: 100vh;
+
+    .taskContainer{
+        padding: 50px 8%;
+        display: flex;
+        justify-content: center;
+
+        .left{
+            flex: 2;
+            img{
+                width: 450px;
+                height: 400px;
+            }
+        }
+        .right{
+            flex: 4;
+            display: flex;
+            justify-content: center;
+
+            .todo{
+                width: 80%;
+                border-radius: 20px;
+                padding: 20px 30px;
+                background: rgba(158, 96, 158, 0.582);
+
+                h2{
+                    font-size: 32px;
+                    text-align: center;
+                    color: white;
+                    margin-bottom: 25px;
+                }
+                form{
+                    display: flex;
+                    gap: 20px;
+
+                    input{
+                        background: rgba(0, 0, 0, 0.932);
+                        color: white;
+                        width: 300px;
+                        height: 45px;
+                        border-radius: 8px;
+                        padding: 0 8px;
+                        border: 1px solid var(--grey);
+                        font-size: 15px;
+
+                        &::placeholder{
+                            color: rgb(122, 113, 113) ;
+                        }
+                    }
+                    button{
+                        padding: 9px 15px;
+                        border-radius: 10px; 
+                        background: var(--dark);    
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+                ul{
+                    margin-top: 15px;
+                    list-style: none;
+
+                    li{
+                        margin-bottom: 15px;
+                        border-radius: 8px;
+                        width: 80%;
+                        padding: 7px 11px;
+                        border: 1px solid white;
+                        color: white;
+                    }
+                }
+                .but{
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                .delete{
+                    font-weight: 600;
+                    background: var(--dark);
+                    color: white;
+                    border-radius: 8px;
+                    padding: 8px 15px;
+                }
+            }
+        }
+    }
+}

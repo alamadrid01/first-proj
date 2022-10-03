@@ -1,0 +1,39 @@
+.sectionFive{
+    background-color: var(--dark);
+    padding: 50px 8%;
+    display: flex;
+    justify-content: space-evenly;
+    .a{
+        .b{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;   
+            
+            img{
+                width: 48px;
+                height: 42px;
+                border-radius: 12px;      
+        }
+      
+        
+        }
+        h3{
+            color: white;
+            margin-bottom: 10px;
+
+        }
+        p{
+            color: rgb(209, 180, 180);
+            padding: 4px 0;
+        }
+            
+        .icon{
+            cursor: pointer;
+            height: 32px;
+            width: 32px;
+            margin: 20px 5px;
+        }
+        
+    }
+}
