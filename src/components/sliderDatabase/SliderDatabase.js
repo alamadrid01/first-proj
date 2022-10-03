@@ -43,7 +43,7 @@ function SliderDatabase({ type }) {
                 image : male,
                 name: 'Adebayo Al-ameen'
             }
-
+            break;
     default:
       break;
   }
@@ -51,7 +51,7 @@ function SliderDatabase({ type }) {
     <div>
       <div className="sliderDatabase">
         <div className="data">
-          <img src={data.current.image} alt="image" />
+          <img src={data.current.image} alt="profile-picture" />
           <h3>{data.current.name}</h3>
         </div>
         <p>

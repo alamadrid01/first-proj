@@ -26,7 +26,7 @@ function SectionOne() {
           <div className="button">Get Started</div>
         </div>
         <div className="right">
-          <img src={pic} alt="picture" />
+          <img src={pic} alt="profile-picture" />
         </div>
       </div>
 

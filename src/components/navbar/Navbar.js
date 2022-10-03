@@ -11,6 +11,7 @@ function Navbar() {
             <div className="left">
                 <img src={logo} alt="logo" />
                 <span>WebZone</span>
+                <h1>hello</h1>
             </div>
             <div className="right">
                 <ul>

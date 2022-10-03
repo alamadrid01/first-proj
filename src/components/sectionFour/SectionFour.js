@@ -1,7 +1,6 @@
 import React from "react";
 import "./sectionFour.scss";
 import Slider from "../../components/slider/Slider";
-import pic from './pic.jpg'
 
 function SectionFour() {
   return (
@@ -12,7 +11,6 @@ function SectionFour() {
           <div className="left">
             <div className="circles">
               <div className="circle">
-                {/* <img src={pic} alt="pic" /> */}
               </div>
             </div>
           </div>
