@@ -17,9 +17,11 @@ function SectionFive() {
               WebZone
             </h3>
           </div>
-          <img className="icon" src={whatsapp} alt="icon" />
-          <img className="icon" src={twitter} alt="icon" />
-          <img className="icon" src={instagram} alt="icon" />
+          <div className="logo">
+                    <div className="twitter"> <a href="https://twitter.com/AdebayoAlameen?t=3L1ljJkyQUhndD4AviGltg&s=09"><img src={twitter}  alt="icon" /></a></div>
+                    <div className="whatsapp"> <a href="https://api.whatsapp.com/send?phone=+234 813 689 4051&text=hi"><img src= {whatsapp} alt="icon" /></a>  </div>
+                    <div className="instagram"><a href="https://instagram.com/alamadrid_d"> <img src= {instagram} alt="icon" /></a></div>
+                </div>
         </div>
         <div className="a">
           <h3>Contact us</h3>
