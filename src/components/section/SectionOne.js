@@ -1,6 +1,6 @@
 import React from "react";
 import "./section.scss";
-import pic from "./pic.jpg";
+import pic from "./test2.png";
 import Table from "./Table";
 
 function SectionOne() {

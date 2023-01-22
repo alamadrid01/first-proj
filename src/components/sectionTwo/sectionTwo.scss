@@ -100,10 +100,22 @@
                         color: white;
                         background: rgba(187, 115, 187, 0.555);
                         border-radius: 8px;
+                        &:hover{
+                            background: rgba(199, 179, 198, 0.911);
+                            color: var(--dark);
+                            font-weight: 500;
+                            border: 2px solid var(--dark);
+                        }
                     }
                     &:nth-child(2){
                         border: 2px solid rgba(187, 115, 187, 0.555);
                         border-radius: 8px;
+                        &:hover{
+                            background: rgba(199, 179, 198, 0.911);
+                            color: var(--dark);
+                            font-weight: 500;
+                            border: 2px solid var(--dark);
+                        }
                     }
                 }
             }

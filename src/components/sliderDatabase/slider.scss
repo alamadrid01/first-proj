@@ -1,9 +1,10 @@
 .sliderDatabase{
     margin: 0 50px;
+    height: 100%;
     padding: 15px;
-    border: 1px solid var(--dark);
+    border: 1px solid rgba(168, 45, 168, 0.493);
     border-radius: 8px;
-box-shadow:  inset -5px -6px 4px 1px #ab93ae;
+// box-shadow:  inset -5px -6px 4px 1px #ab93aebd;
              
     .data{
         display: flex;

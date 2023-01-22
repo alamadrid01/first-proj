@@ -5,6 +5,7 @@
 
     .left{
         padding: 4px 33px;
+        margin-left: 4rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -39,6 +40,10 @@
                 font-weight: 800;
                 cursor: pointer;
                 color: rgb(141, 128, 128);
+
+                &:hover{
+                    border-bottom: 2px solid var(--dark)
+                }
 
                 &:nth-child(1){
                     color: rgb(150, 9, 131);

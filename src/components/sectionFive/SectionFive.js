@@ -1,6 +1,6 @@
 import React from "react";
 import "./sectionFive.scss";
-import logo from "../../components/navbar/logo.jpg";
+import logo from "../../components/navbar/logo2.svg";
 import whatsapp from './whatsapp.png'
 import twitter from './twitter.png'
 import instagram from './instagram.png'
@@ -12,7 +12,7 @@ function SectionFive() {
       <div className="sectionFive">
         <div className="a">
           <div className="b">
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
             <h3>
               WebZone
             </h3>
